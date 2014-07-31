@@ -68,6 +68,7 @@ GEM
     prawn (1.2.1)
       pdf-core (~> 0.2.5)
       ttfunk (~> 1.2.0)
+    prawn-table (0.1.0)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -124,5 +125,6 @@ DEPENDENCIES
   nokogiri
   prawn (~> 1.2.1)
   prawn-html!
+  prawn-table
   rake
   rspec
