@@ -4,5 +4,3 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'jazz_hands'
-gem 'prawn'
-gem 'prawn-table'

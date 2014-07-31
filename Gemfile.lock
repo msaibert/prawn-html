@@ -2,9 +2,6 @@ PATH
   remote: .
   specs:
     prawn-html (0.0.1)
-      nokogiri
-      prawn
-      prawn-table
 
 GEM
   remote: https://rubygems.org/
@@ -129,6 +126,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.3)
   jazz_hands
+  nokogiri
   prawn
   prawn-html!
   prawn-table
