@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
-  # spec.add_development_dependency 'prawn', '~> 1.2.1'
-  # spec.add_development_dependency 'prawn-table'
+  spec.add_dependency 'prawn', '~> 1.2.1'
+  spec.add_dependency 'prawn-table'
   spec.add_development_dependency 'nokogiri'
   spec.add_development_dependency 'rspec'
 end
