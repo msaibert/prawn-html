@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     prawn-html (0.0.1)
+      nokogiri
       prawn (~> 1.2.1)
       prawn-table
 
@@ -128,7 +129,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.3)
   jazz_hands
-  nokogiri
   prawn-html!
   rake
   rspec
